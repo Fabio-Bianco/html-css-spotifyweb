@@ -4,3 +4,35 @@
         padding: 0;
         box-sizing: border-box;
     }
+
+    main {
+
+        background-color:aquamarine;
+        height: 100vh;
+        color: white;
+
+
+    }
+
+    footer {
+        height: 70px;
+        background-color:#282828;
+        color: white;
+
+    }
+
+    .main-container {
+        display: flex;
+    }
+
+    .col-menu {
+        display: inline;
+        background-color: red; 
+    }
+
+    .col-article {
+        background-color: yellowgreen;
+    }
+
+
+
