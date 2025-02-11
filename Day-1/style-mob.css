@@ -3,6 +3,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: Montserrat;
     }
 
     main {
@@ -18,21 +19,32 @@
         height: 70px;
         background-color:#282828;
         color: white;
-
     }
 
     .main-container {
         display: flex;
     }
 
+    .big-logo {
+        display: none;
+    }
+
     .col-menu {
         display: inline;
-        background-color: red; 
+        background-color: #000000; 
     }
 
     .col-article {
         background-color: yellowgreen;
     }
 
+    svg {
+        width: 30px;
+        height: 20px;
+    }
+
+    span {
+        display: none;
+    }
 
 
