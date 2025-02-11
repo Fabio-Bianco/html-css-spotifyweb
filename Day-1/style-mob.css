@@ -6,13 +6,11 @@
         font-family: Montserrat;
     }
 
+        /* main section */
     main {
-
-        background-color:aquamarine;
+        background-color: #151922;
         height: 100vh;
         color: white;
-
-
     }
 
     footer {
@@ -23,6 +21,8 @@
 
     .main-container {
         display: flex;
+        
+
     }
 
     .big-logo {
@@ -43,8 +43,27 @@
         height: 20px;
     }
 
-    span {
+    span .play-list {
+        font-size: 0.75em;
+        font-weight: 150;    
+    }
+
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .home-list, h2, .play-list {
         display: none;
     }
 
+    
+
+
+
+
+ 
+
+    /* main section */
 
