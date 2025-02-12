@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
  @media (min-width: 992px) {
-
+    
     .container .home-bar #logo .logo {
         display: none;
     }
@@ -20,4 +20,17 @@
     .span-menu {
         display: unset;
     }
+
+    #playlist {
+        display: unset;
+    }
+
+    .span-profile {
+        display: unset;
+    }
+    
+    #profile hr { 
+        display: flex;
+        flex-direction: row;
+    
  }

@@ -11,9 +11,11 @@ a {
     text-decoration: none;
 }
 
-li {
+.span-menu{
     list-style: none;
+    color: white;
 }
+
 
 body {
     font-family: Montserrat;
@@ -28,7 +30,8 @@ body {
 /* <!--Main site --> */
 
 main {
-    height: calc(100vh - 90px) ;
+    height: calc(100vh - 90px);
+    background-color: #151922;
 }
 
 /* <!-- Home - Menu --> */
@@ -38,15 +41,15 @@ main {
     height: 100%;
 }
 .container .home-bar {
-    background-color: aqua;
+    background-color: #000000;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
 }
 
 .container .home-bar #logo {
-    padding: 5px 10px;
-    background-color: brown;
+    padding: 10px 10px;
+   
 }
 
 .container .home-bar #logo .logo {
@@ -59,45 +62,93 @@ main {
 }
 
 .container .home-bar .list-home #logo-menu {
-
     width: 25px;
     height: 30px;
 }
 .container .home-bar #menu {
-    padding: 20px 10px;
-    background-color: yellowgreen;
-
+    padding: 20px 15px;
 }
 
-.container .home-bar #menu #logo-menu li a {
+.container #menu .list-home #logo-menu {
+    color: white;
+}
 
+.container .home-bar #menu .list-home #logo-menu li a {
+    display: flex;
+    justify-content: center;
     color: #5b5b5b;
+
 }
 
 
+.container .home-bar #playlist  #creation {
+   
+    height: 60px;
+    width:  160px;
+}
+  
+.container #playlist h2 {
+    padding-top: 5px;
+    padding-bottom:10px;
+}
+
+h2 {
+    color: white;
+}
+
+.container #playlist li {
+
+    color: #5c5c5c;
+}
 
 .container .home-bar #playlist {
-    background-color: grey;
-
+    line-height:20px;
+    padding: 10px;
 }
+
+#playlist {
+    display: none;
+}
+
 .container .home-bar #profile {
-    background-color: burlywood;
     margin-top: auto;
 }
+
+#profile {
+    color: white;
+     padding: 10px;
+     font-size: 0.80em;
+}
+
+#profile .app{
+    padding-bottom: 10px;
+}
+
+#profile .utente {
+    margin-top: 5px;
+
+}
+
+
+
+.span-profile, hr {
+    display: none;
+}
+
 
 
 /* <!-- Home - Menu --> */
 
 .home-music {
-   
     flex-grow: 1;
     height:  90px;
-    background-color: chartreuse;
+    background-color: #10131a;
+    /* background-color: chartreuse; */
     
 }
 
 /* Footer bar */
 footer {
     height: 90px;
-    background-color: brown;
+    background-color: #282828;
 }
