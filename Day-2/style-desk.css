@@ -5,6 +5,14 @@
 }
  @media (min-width: 992px) {
 
+    .container .home-bar #logo .logo {
+        display: none;
+    }
+
+    .container .home-bar #logo .logo-bg {
+        display: unset;
+    }
+
     .container .home-bar {
         width: 230px;
     }
