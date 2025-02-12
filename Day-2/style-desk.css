@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+ @media (min-width: 992px) {
 
-
-@media screen and (min-width: 992px){
-
-
-    .home-list, h2, .play-list {
-        display: unset;
+    .container .home-bar {
+        width: 230px;
     }
 
-}
+    .span-home {
+        display: unset;
+    }
+ }
