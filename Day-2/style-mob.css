@@ -5,6 +5,8 @@
     font-family: Montserrat;
 }
 
+/* Reset */
+
 a {
     text-decoration: none;
 }
@@ -13,24 +15,28 @@ li {
     list-style: none;
 }
 
-.brand {
-    display: none;
+body {
+    font-family: Montserrat;
 }
+
+/* Reset */
 
 .span-menu {
      display: none;
 }
 
+/* <!--Main site --> */
+
 main {
     height: calc(100vh - 90px) ;
 }
+
+/* <!-- Home - Menu --> */
 
 .container {
     display: flex;
     height: 100%;
 }
-
-
 .container .home-bar {
     background-color: aqua;
     flex-shrink: 0;
@@ -39,7 +45,7 @@ main {
 }
 
 .container .home-bar #logo {
-    padding: 5px 15px;
+    padding: 5px 10px;
     background-color: brown;
 }
 
@@ -49,12 +55,23 @@ main {
 }
 .container .home-bar #logo .logo-bg {
     display: none;
+    width: 130px;
 }
 
+.container .home-bar .list-home #logo-menu {
 
+    width: 25px;
+    height: 30px;
+}
 .container .home-bar #menu {
+    padding: 20px 10px;
     background-color: yellowgreen;
 
+}
+
+.container .home-bar #menu #logo-menu li a {
+
+    color: #5b5b5b;
 }
 
 
@@ -69,6 +86,7 @@ main {
 }
 
 
+/* <!-- Home - Menu --> */
 
 .home-music {
    
@@ -78,7 +96,7 @@ main {
     
 }
 
-
+/* Footer bar */
 footer {
     height: 90px;
     background-color: brown;
