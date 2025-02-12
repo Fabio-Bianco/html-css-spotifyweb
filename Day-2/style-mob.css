@@ -5,41 +5,48 @@
         box-sizing: border-box;
         font-family: Montserrat;
     }
+    
+    a {
+        text-decoration: none;
+    }
 
     li {
         list-style: none;
     }
 
-    
-    main {
-        background-color: #151922;
+    .logo {
+        height: 30px;
+        width: 30px;
+    }
+
+    .brand {
+        display: none;
+    }
+
+    .span-menu {
+         display: none;
+    }
+
+  main {
         height: 100vh;
-        color: white;
+    }
+
+    .container {
+        display: flex;
+        height: 100%;
     }
 
     footer {
-        height: 70px;
-        background-color:#282828;
-        color: white;
+        height: 90px;
+        background-color: brown;
     }
 
-    .main-container {
-        display: flex;
+    .home-bar {
+        background-color: aqua;
     }
 
-    .home-menu {
-        background-color: #000000;
-        width: 30%;
-        line-height: 30px;
-        padding-left: 30px;
-        
+    .home-music {
+        width: 100%;
+        background-color: blueviolet;
     }
 
-    .article-menu {
-        background-color: #151922;
-        width: 70%;
-    }  
-    
-    .play-list {
-       
-    }
