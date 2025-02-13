@@ -16,30 +16,33 @@ a {
     color: white;
 }
 
+.span-menu {
+    display: none;
+}
+
+
 
 body {
+    height: 100vh;
     font-family: Montserrat;
+    background-color: aqua;
 }
 
 /* Reset */
 
-.span-menu {
-     display: none;
-}
 
 /* <!--Main site --> */
 
-main {
-    height: calc(100vh - 90px);
-    background-color: #151922;
-}
 
 /* <!-- Home - Menu --> */
 
 .container {
     display: flex;
-    height: 100%;
+    height: 100vh;
+   
 }
+
+/* Menu di sinistra */
 .container .home-bar {
     background-color: #000000;
     flex-shrink: 0;
@@ -51,7 +54,6 @@ main {
     padding: 10px 10px;
    
 }
-
 .container .home-bar #logo .logo {
     height: 30px;
     width: 30px;  
@@ -87,12 +89,12 @@ main {
     width:  160px;
 }
   
-.container #playlist h2 {
+.container #playlist h3 {
     padding-top: 5px;
     padding-bottom:10px;
 }
 
-h2 {
+h3 {
     color: white;
 }
 
@@ -102,7 +104,7 @@ h2 {
 }
 
 .container .home-bar #playlist {
-    line-height:20px;
+    line-height:25px;
     padding: 10px;
 }
 
@@ -129,26 +131,25 @@ h2 {
 
 }
 
-
-
 .span-profile, hr {
     display: none;
 }
-
+/* Menu di sinistra */
 
 
 /* <!-- Home - Menu --> */
 
+
+
 .home-music {
-    flex-grow: 1;
-    height:  90px;
-    background-color: #10131a;
-    /* background-color: chartreuse; */
-    
+
 }
+
+
 
 /* Footer bar */
 footer {
+
     height: 90px;
     background-color: #282828;
 }
