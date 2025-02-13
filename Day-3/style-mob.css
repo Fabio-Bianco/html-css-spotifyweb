@@ -139,9 +139,15 @@ h3 {
 
 /* <!-- Home - Menu --> */
 
+.top-main a {
+    background-color: brown;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+}
 
-
-.home-music {
+.nav-bar ul {
+    display: flex;
 
 }
 
@@ -152,4 +158,8 @@ footer {
 
     height: 90px;
     background-color: #282828;
+}
+
+.nav-bar ul li {
+    display: flex;
 }
