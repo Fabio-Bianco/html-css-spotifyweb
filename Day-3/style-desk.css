@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ @media (min-width: 992px) {
+    
+    .container .home-bar #logo .logo {
+        display: none;
+    }
+
+    .container .home-bar #logo .logo-bg {
+        display: unset;
+    }
+
+    .container .home-bar {
+        width: 230px;
+    }
+
+    .span-menu {
+        display: unset;
+    }
+
+    #playlist {
+        display: unset;
+    }
+
+    .span-profile {
+        display: unset;
+    }
+    
+    #profile hr { 
+        display: flex;
+        flex-direction: row;
+    
+ }
+
+}
