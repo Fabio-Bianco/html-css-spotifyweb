@@ -28,6 +28,10 @@ body {
     background-color: aqua;
 }
 
+main {
+    height: calc(100vh - 90px);
+}
+
 /* Reset */
 
 
@@ -38,8 +42,6 @@ body {
 
 .container {
     display: flex;
-    
-   
 }
 
 /* Menu di sinistra */

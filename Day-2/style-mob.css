@@ -20,14 +20,15 @@ a {
     display: none;
 }
 
-
-
 body {
     height: 100vh;
     font-family: Montserrat;
     background-color: aqua;
 }
 
+main {
+    height: calc(100vh- 90px);
+}
 /* Reset */
 
 
