@@ -1,11 +1,10 @@
+/* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat;
 }
-
-/* Reset */
 
 a {
     text-decoration: none;
@@ -20,31 +19,22 @@ a {
     display: none;
 }
 
-
-
 body {
     height: 100vh;
-    font-family: Montserrat;
-    background-color: aqua;
+     background-color: aqua;
 }
 
 main {
+ height: calc(100vh - 90px);
+}
+
+.home-bar{
+
     height: calc(100vh - 90px);
+
 }
 
-/* Reset */
 
-
-/* <!--Main site --> */
-
-
-/* <!-- Home - Menu --> */
-
-.container {
-    display: flex;
-}
-
-/* Menu di sinistra */
 .container .home-bar {
     background-color: #000000;
     flex-shrink: 0;
@@ -56,6 +46,7 @@ main {
     padding: 10px 10px;
    
 }
+
 .container .home-bar #logo .logo {
     height: 30px;
     width: 30px;  
@@ -136,31 +127,14 @@ h3 {
 .span-profile, hr {
     display: none;
 }
-/* Menu di sinistra */
 
 
-/* <!-- Home - Menu --> */
 
-.top-main a {
-    background-color: brown;
-    width: 100%;
-    height: 90px;
-    display: inline-block;
-    text-align: center;
-}
 
-.nav-bar ul {
-    display: flex;
 
-}
-
-/* Footer bar */
 footer {
 
     height: 90px;
     background-color: #282828;
 }
 
-.nav-bar ul li {
-    display: flex;
-}
