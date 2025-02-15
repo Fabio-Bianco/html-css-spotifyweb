@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+    color: #5c5c5c;
+}
+
 .span-menu {
     list-style: none;
     color: white;
@@ -24,20 +29,18 @@ body {
     background-color: aqua;
 }
 
-main {
-    height: calc(100vh - 90px);
-
-}
-
-.container {
+.container  {
+    height: calc(100% - 180px);
     display: flex;
 }
 
+.container main {
+    flex-grow: 1;
+}
 
 /* home-bar */
 
 .home-bar {
-
     height: calc(100vh - 90px);
 
 }
@@ -81,7 +84,6 @@ main {
     display: flex;
     justify-content: center;
     color: #5b5b5b;
-
 }
 
 .container .home-bar #playlist #creation {
@@ -133,32 +135,36 @@ h3 {
 
 .span-profile,
 hr {
+    color: white;
     display: none;
 }
 /* home-bar */
 
 /* top-main */
-.top-main {
-    width: 100%;
-    display: flex;
-    height: 90px;
-    background-color: #000000;
-}
 
+.top-main {
+   flex-grow: 1;
+}
 
 .upgrade { 
-    display: inline-block;
+    
+    border-radius: 1px;
     color: white;
-    font-size: 1.50rem;
+    width: 100%;
     text-transform: uppercase;
- 
+    display: none;
+}
+.sticky {
+    align-items: center;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
-.top-menu .list-menu {
-    display: flex;
-}
-
-.container .top-main .upgrade  {
+.list-menu {
     display: none;
 }
 

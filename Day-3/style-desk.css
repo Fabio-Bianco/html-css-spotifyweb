@@ -39,5 +39,17 @@
     display: unset;
 }
 
+.upgrade {
+    display: unset;
+    width: 100%;
+}
+
+.list-menu {
+    display: unset;
+    display: flex;
+    justify-content:space-around;
+    padding: 15px 30px;
+}
+
 
 }
