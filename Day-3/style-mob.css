@@ -184,27 +184,12 @@ hr {
 
 .album-container {
     padding: 20px 20px;
-
 }
 
 .top-main .album-container>section {
     margin-bottom: 20px;
 }
 
-.album-container .recently-played .album {
-    display: flex;
-    flex-wrap: wrap;
-    gap:20px;
-}
-
-.album-container .recently-played .album > * {
-    height: 280px;
-    width: calc(100% -40px)/2;
-    flex-shrink: 0;
-    background-color: beige;
-    border: 2px solid black;
-
-}
 
 
 
