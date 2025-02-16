@@ -201,7 +201,7 @@ hr {
     height: 280px;
     width: calc(100% -40px)/2;
     flex-shrink: 0;
-    background-color: brown;
+    background-color: beige;
     border: 2px solid black;
 
 }
@@ -252,7 +252,7 @@ footer {
 
 .album-container .recently-played .album > * {
 
-    width: calc(100%/4);
+    width: calc(100% -60px)/4;;
 
 }
 
