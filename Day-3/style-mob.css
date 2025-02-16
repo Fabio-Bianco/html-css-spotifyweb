@@ -15,6 +15,11 @@ li {
     color: #5c5c5c;
 }
 
+h2 {
+    color: white;
+    font-size: 1,50em;
+}
+
 .span-menu {
     list-style: none;
     color: white;
@@ -145,13 +150,11 @@ hr {
     flex-grow: 1;
     overflow-y: auto;
     background-color: yellowgreen;
+
 }
 
 .sticky {
-    /* display: flex;
-    justify-content: end;
-    align-items: center;
-    */
+
     align-items: center;
     text-align: right;
     padding: 15px 10px;
@@ -167,23 +170,41 @@ hr {
     border-radius: 10px;
     color: white;
     padding: 5px 10px;
-    display: none;
+    /* display: none; */
 }
 
-
-
-.list-menu {
+.main-nav .list-menu {
     font-size: 1em;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-
-    
+    padding: 20px 20px; 
 }
 
+.album-container {
+    padding: 20px 20px;
 
+}
 
+.top-main .album-container>section {
+    margin-bottom: 20px;
+}
+
+.album-container .recently-played .album {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.album-container .recently-played .album > * {
+    height: 280px;
+    width: calc(100% -40px)/2;
+    flex-shrink: 0;
+    background-color: brown;
+    border: 2px solid black;
+
+}
 
 
 
@@ -226,7 +247,15 @@ footer {
         justify-content: center;
         gap: 40px;
         flex-wrap: wrap;
+        
 }
+
+.album-container .recently-played .album > * {
+
+    width: calc(100%/4);
+
+}
+
 
 
 }

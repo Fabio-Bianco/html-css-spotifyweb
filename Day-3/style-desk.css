@@ -44,6 +44,12 @@
     width: 100%;
 }
 
+.album-container .recently-played .album > * {
+
+    width: calc(100% -100px)/6;
+
+}
+
 
 
 }
