@@ -35,20 +35,12 @@ body {
 }
 
 .container {
-    height: calc(100% - 90px);
+    height: calc(100vh - 90px);
     display: flex;
 }
 
 
-/* .container main {
-    flex-grow: 1;
-} */
-
-/* home-bar */
-
-.home-bar {
-    height: calc(100vh - 90px);
-}
+/* Header main album */
 
 .container .home-bar {
     background-color: #000000;
@@ -142,14 +134,14 @@ hr {
     display: none;
 }
 
-/* home-bar */
+/* Header main album */
 
-/* top-main */
+/* Album container */
 
 .top-main {
     flex-grow: 1;
     overflow-y: auto;
-    background-color: yellowgreen;
+    background-color: #141922;
 
 }
 
@@ -170,7 +162,7 @@ hr {
     border-radius: 10px;
     color: white;
     padding: 5px 10px;
-    /* display: none; */
+    
 }
 
 .main-nav .list-menu {
@@ -191,27 +183,61 @@ hr {
 }
 
 
+.top-main .album-container .recently-played .album {
+    display: flex;
+    flex-wrap: wrap;
+        
+    
+}
+
+.top-main .album-container .recently-played .album > * {
+    height: 280px;
+    background-color: #799480;
+    border: 2px solid black;
+    width: calc(100% /2);
+    flex-shrink: 0;  
+}
+
+.top-main .album-container .created .album {
+    display: flex;
+}
+
+.top-main .album-container .created .album > * {
+    
+    background-color: #395c42;
+    border: 2px solid black;
+    width: 200px;
+    height: 280px;
+       /* lg e alt da cancellare */
+}
+
+.top-main .album-container .popular-album .album {
+    display: flex;
+}
+
+.top-main .album-container .popular-album .album > * {
+    border: 2px solid black;
+    background: #c8decd;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    /* lg e alt da cancellare */
+}
+
+.album {
+    padding-top: 15px;
+}
+
+.subtitle {
+    font-size: 0.75em;
+    color: #5c5c5c;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* top-main */
+/* Album container */
 
 
 /* footer */
@@ -224,7 +250,7 @@ footer {
 /* footer */
 
 
-/* media query tablet */
+/* Media query Tablet */
 
 @media (min-width: 768px) {
 
@@ -235,9 +261,12 @@ footer {
         
 }
 
-.album-container .recently-played .album > * {
+.top-main .album-container .recently-played .album > * {
 
-    width: calc(100% -60px)/4;;
+    width: calc(100% /4);
+  
+
+    
 
 }
 
